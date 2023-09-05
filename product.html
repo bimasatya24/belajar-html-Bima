@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar css</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">BIMA SATYA NUGRAHA</div>
+        <ul class="nav">
+            <li>
+                <a href="index.html" class="nav-items">HOME</a>
+            </li>
+            <li>
+                <a href="product.html" class="nav-items active">PRODUCT</a>
+            </li>
+            <li>
+                <a href="about.html" class="nav-items">ABOUT</a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-items">CONTACT</a>
+            </li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <h1>ini halaman produk</h1>
+
+    <script>
+        const tombolToggle = document.querySelector(".menu-toggle")
+        tombolToggle.addEventListener("click", function(){
+            const nav = document.querySelector(".nav")
+            nav.classList.toggle("active")
+        })
+    </script>
+</body>
+</html>

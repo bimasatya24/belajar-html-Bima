@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar CSS</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">BIMA SATYA NUGRAHA</div>
+        <ul class="nav">
+            <li>
+                <a href="#Banner" class="nav-items active">HOME</a>
+            </li>
+            <li>
+                <a href="#about" class="nav-items">ABOUT</a>
+            </li>
+            <li>
+                <a href="#keunggulan" class="nav-items">KEUNGGULAN</a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-items">CONTACT</a>
+            </li>
+            <li>
+                <a href="#skill" class="nav-items">SKILL</a>
+            </li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fa fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="Banner" id="Banner">
+        <h4>SELAMAT DATANG DI WEB</h4>
+        <h1>BIMA SATYA NUGRAHA</h1>
+        <p>
+            ini adalah web utama kita belajar dengan yogi
+        </p>
+    </section>
+
+    <!-- Keunggulan -->
+    <section class="keunggulan" id="keunggulan">
+        <div class="keunggulan-item">
+            <h4>Muda</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="keunggulan-item">
+            <h4>Pintar</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="keunggulan-item">
+            <h4>Handsome</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="keunggulan-item">
+            <h4>Pendek</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <img src="gambar.jpg" alt="BIMA SATYA NUGRAHA">
+        <div class="text-about">
+            <h2>Tentang Saya</h2>
+            <p>
+                saya adalah seorang mahasiswa universitas 
+                teknokrat indonesia, mengambil jurusan informatika 
+                fakultas teknik dan ilmu komputer. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, molestiae?
+            </p>
+        </div>
+    </section>
+
+    <!-- Skill -->
+    <section class="skill" id="skill">
+        <h2>Skill Saya</h2>
+        <p class="deskripsi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, perferendis.</p>
+        <div class="skill-container">
+            <div class="skill-item">
+                <img src="html.jpeg" alt="HTML">
+                <p>HTML</p>
+            </div>
+            <div class="skill-item">
+                <img src="css.jpeg" alt="CSS">
+                <p>CSS</p>
+            </div>
+            <div class="skill-item">
+                <img src="js.jpeg" alt="JS">
+                <p>JS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section class="contact" id="contact">
+        <h2>Kontak Saya</h2>
+        <p class="deskripsi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, totam!
+        </p>
+        <form>
+            <div class="form-group">
+                <label>Nama :</label>
+                <input type="text" class="form-control" placeholder="Masukkan Nama: ">
+            </div>
+            <div class="form-group">
+                <label>Email :</label>
+                <input type="email" class="form-control" placeholder="Masukkan Email: ">
+            </div>
+            <div class="form-group">
+                <label>Pesan :</label>
+                <textarea class="form-control" rows="5" placeholder="Pesan Anda: "></textarea>
+            </div>
+            <button class="btn-submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="top">
+            <h1>BIMA SATYA NUGRAHA</h1>
+            <p>Ini adalah web untuk kita belajar
+                web bersama bang Yogi
+            </p>
+        </div>
+        <p>&copy; 2023 Copyright. All Right Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
