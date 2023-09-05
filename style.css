@@ -84,7 +84,7 @@ section.Banner h1{
 }
 
 section.keunggulan{ 
-    padding: 0 200px;
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
     column-gap: 20px;
